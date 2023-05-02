@@ -1,29 +1,14 @@
-# Blockchain-Primitives-Cryptography
+# Blockchain-Primitives-Cryptosystems
 
 ## To-Dos
 
-- [ ] Perform the symmetric encryption using AES-256-CBC using OpenSSL or Python-Cryptography
-- [ ] Perform Public-key cryptography using RSA cryptography
-- [ ] Create and verify the digital signature.
-- [ ] Generate Digital Certificate (self-signed)
-
+- [ ] Perform the cryptographic hash functions md5 and SHA
+- [ ] Demonstrate the properties of Cryptographic hash functions.
+- [ ] Use the Pymerkel library to compute the hash of transactions.
+- [ ] Compute the Root hash (Merkle Root) for 11 transactions.
 
 ## References
 
-### Performing Symmetric Encryption using OpenSSL
+### PyMerkle and its uses
 
-- https://kekayan.medium.com/encrypt-files-using-aes-with-openssl-dabb86d5b748
-
-### Performing Symmetric Encryption using PyCrypto
-
-- https://pypi.org/project/pycrypto/
-
-### Public Key Cryptography Using RSA
-
-- https://opensource.com/article/21/4/encryption-decryption-openssl
-
-### Digital Signature using OpenSSL
-
-- https://pagefault.blog/2019/04/22/how-to-sign-and-verify-using-openssl/
-
-
+- https://pypi.org/project/pymerkle/
